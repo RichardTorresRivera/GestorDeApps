@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "app_name": "users",
+    "entry_point": "apps/users/main.py",
+    "port": 5001,
+    "description": "App de usuarios",
+    "status": "active"
+  },
+  {
+    "id": 2,
+    "app_name": "products",
+    "entry_point": "apps/products/main.py",
+    "port": 5002,
+    "description": "App de productos",
+    "status": "active"
+  },
+  {
+    "id": 3,
+    "app_name": "orders",
+    "entry_point": "apps/orders/main.py",
+    "port": 5003,
+    "description": "App de ordenes",
+    "status": "desactive"
+  }
+]
